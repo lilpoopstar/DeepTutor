@@ -111,3 +111,19 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
+
+## Tutor skill
+
+- Project: [ClawHub — ivangdavila/tutor](https://clawhub.ai/ivangdavila/skills/tutor)
+- Version: `1.0.0` (package files verified against the hub's published SHA-256 manifest)
+- License: MIT-0
+- Author: ivangdavila
+- Adapted files: `deeptutor/skills/builtin/tutor/`
+
+DeepTutor ships this skill as a builtin. `references/ages.md`, `references/sessions.md`
+and `references/subjects.md` are upstream's, unmodified. `SKILL.md` and
+`references/progress.md` are rewritten to keep learner progress in DeepTutor's
+learning journal and memory (`learning_update`, `learning_status`, `write_memory`)
+instead of the upstream plaintext `~/tutor/` files, and `references/safety.md`
+reworded its escalation steps so the tutor never implies it can contact a guardian.
+MIT-0 requires no attribution; this notice records provenance only.
